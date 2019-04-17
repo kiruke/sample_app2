@@ -8,9 +8,11 @@ end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.6'
+#bootstrap-sassを追加 リスト5.5
+gem 'bootstrap-sass', '3.3.7'
 # Use sqlite3 as the database for Active Record
 #gem 'sqlite3'
-gem 'sqlite3', groups: %w(test development), require: false #herokuデプロイできないため追加
+gem 'sqlite3', groups: %w(test development), require: false #herokuデプロイできないため追加_20190416
 # Use Puma as the app server
 gem 'puma', '~> 3.9.1'
 # Use SCSS for stylesheets
